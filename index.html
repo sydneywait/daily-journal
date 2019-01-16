@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang=en>
+
+<head>
+  <meta charset=UTF-8 />
+  <meta name=viewport content=width=device-width, initial-scale=1.0 />
+  <meta http-equiv=X-UA-Compatible content=ie=edge />
+  <link rel=stylesheet href=styles/journal.css />
+  <title>Document</title>
+</head>
+
+<body>
+  <h1>Daily Journal</h1>
+
+  <!-- Create a journal entry form -->
+  <form action="/action_page.php">
+
+    <!-- field for date-->
+        <fieldset>
+    <label for="journalDate">Date of Entry:</label>
+    <input type="date" name="journalDate" id="journalDate">
+    </fieldset>
+  
+    <!-- Field for concept topic -->
+    <fieldset>
+      <label for="conceptsCovered">Concepts Covered:</label>
+      <input type="text" name="conceptsCovered" id="conceptsCovered">
+    </fieldset>
+    <!-- field for journal entry -->
+    <fieldset>
+      <label for="journalEntry">Journal Entry:</label>
+      <input type="text" name="journalEntry" id="journalEntry">
+    </fieldset>
+<!-- field for mood with dropdown options-->
+    <fieldset>
+      <label for="dailyMood">Mood for the day:</label>
+        <select name="dailyMood">
+        <option value="happyMood">Happy :)</option>
+        <option value="sadMood">Sad :(</option>
+        <option value="tiredMood">Tired :|</option>
+        <option value="confusedMood">confused :/</option>
+      </select>
+    </fieldset>
+    <input type="submit" value="Record Journal Entry">
+
+  </form>
+
+  
+
+
+</body>
+
+</html>
