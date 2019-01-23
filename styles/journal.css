@@ -1,0 +1,14 @@
+h1 {
+    /* color: red; */
+}
+
+
+fieldset{
+    display:flex;
+    flex-direction: column;
+
+}
+
+
+label{}
+input{}
