@@ -11,4 +11,12 @@ fieldset{
 
 
 label{}
-input{}
+input{
+    color: red
+}
+
+#submit-button {
+    color: blue;
+    background: pink;
+    
+}
