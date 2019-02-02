@@ -1,22 +1,39 @@
 {
-    "journalEntryArray": [
-        {
-            "Date": "1-23-19",
-            "Concept": "DOM query selectors",
-            "Entry": "Today we learned how to print to the DOM",
-            "dailyMood": "Happy :)"
-        },
-        {
-            "Date": "1-24-19",
-            "Concept": "Functions and logic",
-            "Entry": "Today we learned how to integrate functions into javascript.  We practiced using if/else statements and for-loops",
-            "dailyMood": "Happy :)"
-        },
-        {
-            "Date": "1-25-19",
-            "Concept": "Objects as things",
-            "Entry": "Today we learned some new stuff",
-            "dailyMood": "Happy :)"
-        }
-    ]
+  "journalEntryArray": [
+    {
+      "Date": "1-23-19",
+      "Concept": "DOM query selectors",
+      "Entry": "Today we learned how to print to the DOM",
+      "dailyMood": "Happy :)",
+      "id": 1
+    },
+    {
+      "Date": "1-24-19",
+      "Concept": "Functions and logic",
+      "Entry": "Today we learned how to integrate functions into javascript.  We practiced using if/else statements and for-loops",
+      "dailyMood": "Happy :)",
+      "id": 2
+    },
+    {
+      "Date": "1-25-19",
+      "Concept": "Objects as things",
+      "Entry": "Today we learned some new stuff",
+      "dailyMood": "Happy :)",
+      "id": 3
+    },
+    {
+      "Date": "2-01-19",
+      "Concept": "JSon practice",
+      "Entry": "Today we learned some new stuff",
+      "dailyMood": "Happy :)",
+      "id": 4
+    },
+    {
+      "Date": "2-04-19",
+      "Concept": "JSon practice",
+      "Entry": "Today we learned some new stuff",
+      "dailyMood": "Happy :)",
+      "id": 5
+    }
+  ]
 }
