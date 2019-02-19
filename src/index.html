@@ -7,6 +7,48 @@
     <title>Document</title>
   </head>
   <body>
+      <h1>Daily Journal</h1>
+
+      <!-- Create a journal entry form -->
+             <!-- field for date-->
+            <fieldset>
+        <label for="journalDate">Date of Entry:</label>
+        <input type="date" name="journalDate" id="journalDate">
+        </fieldset>
+
+        <!-- Field for concept topic -->
+        <fieldset>
+          <label for="conceptsCovered">Concepts Covered:</label>
+          <input type="text" name="conceptsCovered" id="conceptsCovered">
+        </fieldset>
+        <!-- field for journal entry -->
+        <fieldset>
+          <label for="journalEntry">Journal Entry:</label>
+          <input type="text" name="journalEntry" id="journalEntry">
+        </fieldset>
+    <!-- field for mood with dropdown options-->
+        <fieldset>
+          <label for="dailyMood">Mood for the day:</label>
+            <select name="dailyMood" id="dailyMood">
+            <option value="happyMood">Happy :)</option>
+            <option value="sadMood">Sad :(</option>
+            <option value="tiredMood">Tired :|</option>
+            <option value="confusedMood">confused :/</option>
+          </select>
+        </fieldset>
+        <!-- Button -->
+        <input type="submit" id = "submit-button" value="Record Journal Entry">
+
+
+
+      <article class="entryLog">
+
+      </article>
+
+      <script src = scripts/data.js></script>
+      <script src = scripts/entriesDOM.js></script>
+      <script src = scripts/entryComponent.js></script>
+      <script src = scripts/journal.js></script>
     <script src="scripts/main.js"></script>
   </body>
 </html>
